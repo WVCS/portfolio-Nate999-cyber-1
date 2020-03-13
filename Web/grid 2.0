@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+body{
+ background-color: #94FF99;
+ display: grid;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px 500px;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+.item{
+ border: 2px solid black;
+ padding: 50px;
+   margin: 35px;
+  font-size: 30px;
+}
+.item1{
+  grid-area: header;
+}
+h1{
+ text-align: center;
+}
+</style>
+<body>
+  <h1> Usain Bolt </h1>
+  <div class="container">
+    <div class="item1 item">Usain St Leo Bolt, OJ, CD (/ˈjuːseɪn/;[12] born 21 August 1986) is a Jamaican former sprinter. He is a world record holder in the 100 metres, 200 metres and 4 × 100 metres relay. Owing to his achievements and dominance in sprint competition, he is widely considered to be the greatest sprinter of all time.[13][14][15][16]</div>
+    <div class="item2 item">An eight-time Olympic gold medallist, Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive Olympics (2008, 2012 and 2016). In addition he won two 4 × 100 relay gold medals. He gained worldwide fame for his double sprint victory in world record times at the 2008 Beijing Olympics, which made him the first person to hold both records since fully automatic time became mandatory</div>
+    <div class="item3 item">An eleven-time World Champion, he won consecutive World Championship 100 m, 200 m and 4 × 100 metres relay gold medals from 2009 to 2015, with the exception of a 100 m false start in 2011. He is the most successful athlete of the World Championships. Bolt is the first athlete to win four World Championship titles in the 200 m and is the joint-most successful in the 100 m with three titles.</div>
+    <div class="item4 item">Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009 – the biggest improvement since the start of electronic timing. He has twice broken the 200 metres world record, setting 19.30 in 2008 and 19.19 in 2009. He has helped Jamaica to three 4 × 100 metres relay world records, with the current record being 36.84 seconds set in 2012. Bolt's most successful event is the 200 m, with three Olympic and four World titles. The 2008 Olympics was his international debut over 100 m; he had earlier won numerous 200 m medals (including 2007 World Championship silver) and holds the world under-20 and world under-18 records for the event.</div>
+    <div class="item5 item">His achievements as a sprinter have earned him the media nickname "Lightning Bolt", and his awards include the IAAF World Athlete of the Year, Track & Field Athlete of the Year, BBC Overseas Sports Personality of the Year (three times) and Laureus World Sportsman of the Year (four times). Bolt retired after the 2017 World Championships, when he finished third in his last solo 100 m race, opted out of the 200 m, and pulled up in the 4×100 m relay final.</div>
+    <div class="item6 item">Stating that it was his "dream" to play professional association football, in August 2018 Bolt began training with Australian A-League club the Central Coast Mariners as a left-winger. On 12 October 2018, Bolt scored twice for the team in a friendly match. He left the club the following month, and in January 2019 chose not to pursue a career in football.[17]</div>
+    <div class="item7 item">Bolt was born on 21 August 1986 to parents Wellesley and Jennifer Bolt[10] in Sherwood Content,[18] a small town in Jamaica. He has a brother, Sadiki,[19] and a sister, Sherine.[20][21] His parents ran the local grocery store in the rural area, and Bolt spent his time playing cricket and football in the street with his brother,[22] later saying, "When I was young, I didn't really think about anything other than sports."[23] As a child, Bolt attended Waldensia Primary, where he began showing his sprint potential when he ran in his parish's annual national primary school meet.[1] By the age of twelve, Bolt had become the school's fastest runner over the 100 metres distance.[24]</div>
+    <div class="item8 item">Upon his entry to William Knibb Memorial High School, Bolt continued to focus on other sports, but his cricket coach noticed Bolt's speed on the pitch and urged him to try track and field events.[25] Pablo McNeil, a former Olympic sprint athlete,[26] and Dwayne Jarrett coached Bolt,[27] encouraging him to focus his energy on improving his athletic abilities. The school had a history of success in athletics with past students, including sprinter Michael Green.[1] Bolt won his first annual high school championships medal in 2001; he took the silver medal in the 200 metres with a time of 22.04 seconds.[1] McNeil soon became his primary coach, and the two enjoyed a positive partnership, although McNeil was occasionally frustrated by Bolt's lack of dedication to his training and his penchant for practical jokes.[26]</div>
+  </div>
+</body>
+</html>

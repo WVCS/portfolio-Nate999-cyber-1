@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+Body{
+ background-color: pink;
+}
+@media only screen and (max-width: 1030px) {
+  .container {
+flex-direction: column;}
+}
+
+.first {
+ color: red;
+  background-color: blue;
+   height: 100px;
+ width: 900px;
+  text-align: center;
+  font-size: 30px;
+  border: Dashed red 5px;
+  }
+.second{
+color: blue;
+ background-color: red;
+   height: 100px;
+ width: 1000px;
+   text-align: center;
+  font-size: 30px;
+  border: Dashed blue 5px;
+}
+.third{
+ color: red;
+  background-color: blue;
+ height: 100px;
+ width: 1100px;
+   text-align: center;
+  font-size: 30px;
+  border: Dashed white 5px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+flex-direction: column;}
+  body{
+    background-color: red;
+}
+}
+@media only screen and (max-width: 1030px) {
+  .container {
+flex-direction: column;}
+  body {
+    background-color: black;
+  }
+}
+</style>
+<body>
+  <div class="container1">
+  <div class="first">1 </div>
+    <div class="second">2 </div>
+    <div class="third"> 3</div>
+</body>
+</html>
