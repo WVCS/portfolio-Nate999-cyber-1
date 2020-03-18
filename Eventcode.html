@@ -141,14 +141,15 @@ font-size: 30px;
 }
 h2{
 text-align: center;
+color: white;
 }
 h3{
 font-size: 30px;
-font-color: #200DFF;
+color: #200DFF;
 }
 h4{
 font-size: 30px;
-font-color: #200DFF;
+color: #200DFF;
 }
 </style>
 <body>
@@ -206,7 +207,7 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
+  for (i = 0; i < dots.length; i++) { 
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
